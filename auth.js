@@ -11,12 +11,12 @@ import {
 
 // Your config
 const firebaseConfig = {
-  apiKey: "AIzaSyDnKHoj2smR0z9zCZH5A9fJCsFokd9U_ag",
-  authDomain: "otp-system-71b21.firebaseapp.com",
-  projectId: "otp-system-71b21",
-  storageBucket: "otp-system-71b21.firebasestorage.app",
-  messagingSenderId: "767014524390",
-  appId: "1:767014524390:web:5ca45f8a31fbbf194af227"
+  apiKey: "AIzaSyDqsWJgwX-vWIawPZt0XTnQHSE9AqwczkE",
+  authDomain: "word-finder-346db.firebaseapp.com",
+  projectId: "word-finder-346db",
+  storageBucket: "word-finder-346db.firebasestorage.app",
+  messagingSenderId: "129230255125",
+  appId: "1:129230255125:web:39632d82bb30c55c318a1c"
 };
 
 // Init Firebase
