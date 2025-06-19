@@ -59,12 +59,3 @@ window.login = () => {
       alert("Login Error: " + error.message);
     });
 };
-
-// Track user state
-onAuthStateChanged(auth, user => {
-  if (user && user.emailVerified) {
-    document.getElementById("status").innerText = "✅ Logged in and Verified";
-  } else {
-    document.getElementById("status").innerText = "❌ Not Verified or Not Logged In";
-  }
-});
