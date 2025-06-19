@@ -32,7 +32,7 @@ window.signup = () => {
     .then(userCredential => {
       const user = userCredential.user;
       sendEmailVerification(user).then(() => {
-        alert("Verification email sent! Please check your inbox.");
+        alert("Verification email sent! Please check your inbox & Spam Folder.");
       });
     })
     .catch(error => {
